@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_group_search_patient"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_search_patient"
+            android:title="Search" />
+    </group>
+    <group
+        android:id="@+id/menu_group_fingerprint"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_face_id"
+            android:title="Biometric/PIN" />
+    </group>
+    <group
+        android:id="@+id/menu_group_feedback"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Feedback" />
+    </group>
+</menu>
